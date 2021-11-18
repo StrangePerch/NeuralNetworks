@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "45E4ULABkraYH3Wd0rZPFh7jssYmSi6J3YlY0h9GTo0tYdhY6qqKgXBB8XzaW8tJ9YHpwlmFknc5nIZ+lBHf3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\RiderProjects\\C#\\NeuralNetworks\\TrafficLight\\TrafficLight.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.5\\microsoft.netcore.app.host.win-x64.5.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

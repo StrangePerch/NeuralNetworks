@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZTPgkSiKmGR/jo14Xxs0OqBLbk0wUfRHCA9EuqSOuzFW6r163xlixxgq41n1y+8hKX+RO3Nj0zVwPjo5ifKJ6A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\RiderProjects\\C#\\NeuralNetworks\\RockPaperScissors\\RockPaperScissors.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.5\\microsoft.netcore.app.host.win-x64.5.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

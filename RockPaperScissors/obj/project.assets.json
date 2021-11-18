@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "NeuralNetwork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/NeuralNetwork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NeuralNetwork.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NeuralNetwork/1.0.0": {
+      "type": "project",
+      "path": "../NeuralNetwork/NeuralNetwork.csproj",
+      "msbuildProject": "../NeuralNetwork/NeuralNetwork.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "NeuralNetwork >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Admin\\RiderProjects\\C#\\NeuralNetworks\\RockPaperScissors\\RockPaperScissors.csproj",
+      "projectName": "RockPaperScissors",
+      "projectPath": "C:\\Users\\Admin\\RiderProjects\\C#\\NeuralNetworks\\RockPaperScissors\\RockPaperScissors.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\RiderProjects\\C#\\NeuralNetworks\\RockPaperScissors\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Admin\\RiderProjects\\C#\\NeuralNetworks\\NeuralNetwork\\NeuralNetwork.csproj": {
+              "projectPath": "C:\\Users\\Admin\\RiderProjects\\C#\\NeuralNetworks\\NeuralNetwork\\NeuralNetwork.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.5, 5.0.5]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

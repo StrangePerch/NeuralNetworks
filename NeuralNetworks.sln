@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPaperScissors\RockPaperScissors.csproj", "{134426EC-AB53-4F52-80F0-417BA1A0EEF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLight", "TrafficLight\TrafficLight.csproj", "{0D923BB9-4F5A-4B95-A24E-C01F6744FBF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetwork", "NeuralNetwork\NeuralNetwork.csproj", "{448F20E6-D85B-4C18-B417-3A7075F837FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{134426EC-AB53-4F52-80F0-417BA1A0EEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134426EC-AB53-4F52-80F0-417BA1A0EEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134426EC-AB53-4F52-80F0-417BA1A0EEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134426EC-AB53-4F52-80F0-417BA1A0EEF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D923BB9-4F5A-4B95-A24E-C01F6744FBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D923BB9-4F5A-4B95-A24E-C01F6744FBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D923BB9-4F5A-4B95-A24E-C01F6744FBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D923BB9-4F5A-4B95-A24E-C01F6744FBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448F20E6-D85B-4C18-B417-3A7075F837FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448F20E6-D85B-4C18-B417-3A7075F837FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448F20E6-D85B-4C18-B417-3A7075F837FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448F20E6-D85B-4C18-B417-3A7075F837FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
