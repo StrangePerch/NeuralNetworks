@@ -24,6 +24,8 @@
             <RadioButton IsChecked="True" Checked="RedChecked">Red</RadioButton>
             <RadioButton Checked="YellowChecked">Yellow</RadioButton>
             <RadioButton Checked="GreenChecked">Green</RadioButton>
+            <CheckBox Checked="BrokenChecked" Unchecked="BrokenUnchecked">Broken traffic light</CheckBox>
+            <CheckBox Checked="CarChecked" Unchecked="CarUnchecked">Car on the right</CheckBox>
             <CheckBox Checked="HumanChecked" Unchecked="HumanUnchecked">Human</CheckBox>
             <Button Click="Predict_OnClick">Predict</Button>
         </StackPanel>

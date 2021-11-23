@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLight", "TrafficLigh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetwork", "NeuralNetwork\NeuralNetwork.csproj", "{448F20E6-D85B-4C18-B417-3A7075F837FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{CE1A2F42-55B4-49CA-8A1E-4A7B6FDD4511}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{448F20E6-D85B-4C18-B417-3A7075F837FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{448F20E6-D85B-4C18-B417-3A7075F837FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{448F20E6-D85B-4C18-B417-3A7075F837FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE1A2F42-55B4-49CA-8A1E-4A7B6FDD4511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1A2F42-55B4-49CA-8A1E-4A7B6FDD4511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1A2F42-55B4-49CA-8A1E-4A7B6FDD4511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1A2F42-55B4-49CA-8A1E-4A7B6FDD4511}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

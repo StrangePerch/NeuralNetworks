@@ -32,7 +32,7 @@ namespace RockPaperScissorsAI
     {
         private Move _player1Move = Move.Rock;
         private Move _player2Move = Move.Rock;
-        private Trainer trainer;
+        private Trainer _trainer;
         public MainWindow()
         {
             InitializeComponent();
@@ -134,7 +134,7 @@ namespace RockPaperScissorsAI
                     break;
             }
             
-            var prediction = trainer.Predict(arr);
+            var prediction = _trainer.Predict(arr);
             var err1 = Math.Pow(prediction[0] -(ResultDraw.IsChecked == true ? 1 : 0), 2);
             var err2 = Math.Pow(prediction[1] - (ResultPlayer1.IsChecked == true ? 1 : 0), 2);
             var err3 = Math.Pow(prediction[2] - (ResultPlayer2.IsChecked == true ? 1 : 0), 2);
@@ -154,7 +154,7 @@ namespace RockPaperScissorsAI
             await Task.Run(() =>
             {
                 var (inputLayer, layers) = NeuralNetwork.CreateNetwork(new []{6, 9, 3});
-                trainer = new Trainer(inputLayer, layers);
+                _trainer = new Trainer(inputLayer, layers);
 
                     var batch = new double[9][][];
                     var rnd = new Random();
@@ -169,7 +169,7 @@ namespace RockPaperScissorsAI
                     batch[8] = new []{ new []{0d,0,1,1,0,0},new []{0d,0,1}};
                     for (var i = 0; i < 10000; i++)
                     {
-                        trainer.Train(batch.OrderBy(x => rnd.Next()).ToArray());
+                        _trainer.Train(batch.OrderBy(x => rnd.Next()).ToArray());
                         Dispatcher.Invoke(() => ButtonBase_OnClick(null, null));
                     }
 

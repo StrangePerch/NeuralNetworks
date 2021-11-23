@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "X2Sc9K66MnONmARV06Yjul8yR5Nx0E++Zxd+mjYZRpuUwNbBWdj2A7LjlRN/7HBeGDsArWpgFEOPLlujmSzFQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\RiderProjects\\C#\\NeuralNetworks\\TicTacToe\\TicTacToe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.5\\microsoft.netcore.app.host.win-x64.5.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
